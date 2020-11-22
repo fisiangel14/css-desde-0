@@ -66,3 +66,10 @@ p {
 h1 {
     background: red;
 }
+
+/* selectores compuestos: agregafdos */
+
+div, button {
+    background: tomato;
+}
+
