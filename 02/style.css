@@ -1,0 +1,34 @@
+/* 
+    selectores 
+    son las etiquetas, atributos,etc de html a loa cual vamos asignar algun estilo
+
+    selctor {
+        propiedad1: valor1;
+        propiedad2: valor2:
+    }
+
+    tipos e slectores
+
+    simple   
+    hi{
+            }
+    compuesto
+    h1 span {
+    }
+
+    con operadores
+    h1 + span {
+    }
+
+    pseudoclases
+
+    las etiquetas no son casesentitive
+    los atributos si son casesentitive  
+*/
+h1 {
+    color: red;
+}
+
+p {
+    color: blue;
+}
