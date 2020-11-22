@@ -25,10 +25,29 @@
     las etiquetas no son casesentitive
     los atributos si son casesentitive  
 */
+/* SIMPLES */
 h1 {
     color: red;
 }
 
 p {
     color: blue;
+}
+
+/* SIMPLES con CLASES */
+/* Se indican con un putno y el nombre de la clase */
+/* No pueden empezar con un numero
+    Pueden empezar con - o _
+    Pueden tener :
+    Pueden ser de una letra*/
+.description {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
 }
