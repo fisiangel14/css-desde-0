@@ -1,3 +1,19 @@
+/* Variables CSS(custom propietes) */
+/* Declaracion de variables */
+:root {
+  --color: green;
+}
+
+/* Como llamar a esa varaible */
 h1 {
-  color: aquamarine;
+  color: var(--color);
+}
+
+p {
+  /* color: red; */
+  color: var(--color);
+}
+
+ul {
+  color: red;
 }
