@@ -30,6 +30,7 @@
 h1 {
     background: red;
 }
+
 p {
     color: blue;
 }
@@ -59,9 +60,9 @@ p {
     su uso es para anclar en html y js
     
     otro motivo: especificidad*/
-#title {
+/* #title {
     background: pinK;
-}
+} */
 
 h1 {
     background: red;
@@ -73,3 +74,9 @@ div, button {
     background: tomato;
 }
 
+/* selectores compuesots: combinados */
+/* etiqueta.clase */
+h1.title {
+    color: purple;
+    background: yellow;
+}
