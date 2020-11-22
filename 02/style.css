@@ -26,10 +26,10 @@
     los atributos si son casesentitive  
 */
 /* SIMPLES */
-h1 {
-    color: red;
-}
 
+h1 {
+    background: red;
+}
 p {
     color: blue;
 }
@@ -50,4 +50,19 @@ p {
 
 .red {
     color: red;
+}
+
+/* SIMPLES CON ID */
+/* no son reutilizables ya que el id es unico
+    para cada elemento del html
+    
+    su uso es para anclar en html y js
+    
+    otro motivo: especificidad*/
+#title {
+    background: pinK;
+}
+
+h1 {
+    background: red;
 }
