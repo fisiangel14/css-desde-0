@@ -81,8 +81,29 @@ h1.title {
     background: yellow;
 }
 
+/* Selectores descendientes */
+/* padre hijo{
+   }
+ORIENTADOS A MENus
+*/
 
-* {
-    background-color: yellow;
-    color: purple;
+/* Operadores * > + ~   */
+/* universal */
+/* * {
+     background-color: yellow;
+    color: purple;*
+} */
+/* Hijo directo estricto*/
+p > span {
+    background: yellow;
+    color: green;
+}
+/* Hermano siguiente */
+
+p + h3 {
+    border: 1px solid;
+}
+
+p ~ h3 {
+    background: brown;
 }
