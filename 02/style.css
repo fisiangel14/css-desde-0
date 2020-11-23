@@ -80,3 +80,9 @@ h1.title {
     color: purple;
     background: yellow;
 }
+
+
+* {
+    background-color: yellow;
+    color: purple;
+}
